@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/magic-grid/dist/magic-grid.min.js"></script>
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="css/styles.css">
   <link rel="icon" href="https://avatars.githubusercontent.com/u/70612140?v=4" type="image/png"></head>
 
   <body>
@@ -38,29 +38,44 @@
     </div>
     <div id="display">
       <div id="work">
-        <h1>Projects</h1>
+        <h1 style="margin-top: 0px">Projects</h1>
         <div class="projects" id="work_section">
             <a href="https://github.com/kianzohoury/auralflow" target="_blank">
             <section>
-                <div class="section_title">auralflow (music source separation)</div>
-                <div class="about_section">
-                <span style="display:block;">PyTorch-based application for extracting stems (e.g. vocals) from music tracks.</span>
+                <div>
+                    <img id="project_img" src="static/auralflow.png" alt="">
+                </div>
+                <div id="section_container">
+                    <div class="section_title">auralflow 🔊🎵</div>
+                    <div class="about_section">
+                    <span style="display:block;">PyTorch-based application for extracting stems (e.g. vocals) from music tracks.</span>
+                    </div>
                 </div>
             </section>
             </a>
             <a href="https://github.com/kianzohoury/style_transfer" target="_blank">
             <section>
-                <div class="section_title">style transfer</div>
-                <div class="about_section">
-                <span style="display:block;">Artistic image synthesis with neural style transfer.</span>
+                <div>
+                    <img id="project_img" src="static/tuebingen_starry_night.jpeg" alt="">
+                </div>
+                <div id="section_container">
+                    <div class="section_title">style transfer 🎨 📷</div>
+                    <div class="about_section">
+                    <span style="display:block;">Artistic image synthesis with neural style transfer.</span>
+                    </div>
                 </div>
             </section>
             </a>
             <a href="https://github.com/kianzohoury/cs160-final-project" target="_blank">
             <section>
-                <div class="section_title">envyre</div>
-                <div class="about_section">
-                <span style="display: block;">AI-powered recycling assistant.</span>
+                <div>
+                    <img id="project_img" src="static/gradient_1.png" alt="">
+                </div>
+                <div id="section_container">
+                    <div class="section_title">ecoshopper ♻️ 🛒</div>
+                    <div class="about_section">
+                    <span style="display: block;">AI-powered recycling assistant (UC Berkeley CS 160).</span>
+                    </div>
                 </div>
             </section>
             </a>
@@ -74,11 +89,6 @@
         <h1>Blog.</h1>
         <div id="blogs"></div>
       </div>
-      <div id="work_section">
-        <h1>CV</h1>
-        <a class="cv_link" href="static/zohoury_kian_cv.pdf"> Download my cv.</a>
-      </div>
-
       <div id="footer">
       </div>
     </div>
