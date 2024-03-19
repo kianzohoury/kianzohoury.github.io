@@ -1,0 +1,66 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+body {
+	background-color: #ffffff;
+}
+
+hr {
+	background-color: #1f1f1f;
+	color: #1f1f1f;
+	border-color: #1f1f1f;
+}
+
+p {
+	color: #1f1f1f;
+
+	a {
+		color: #0066ff;
+	}
+}
+
+a {
+	color: #0066ff;
+}
+
+a:hover {
+	color: #1f1f1f;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	color: #1f1f1f;
+}
+
+header {
+	h1 {
+		a {
+			color: #1f1f1f;
+		}
+
+		a:hover {
+			color: #727272;
+		}
+	}
+}
+
+small {
+	color: #1f1f1f;
+}
+
+li {
+	color: #1f1f1f;
+}
+
+li::marker {
+	color: #1f1f1f;
+}
+
+.post-meta {
+	color: #1f1f1f;
+}
+
+.project-tag {
+	color: #727272;
+}
