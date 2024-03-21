@@ -7,6 +7,19 @@ permalink: /projects/
 Below are some of the projects I've recently worked on. The corresponding 
 code for each project can be viewed by accessing the provided Github repository.
 
+# conditional VAEs for generating handwritten digits (MNIST)
+Exploring conditional variational autoencoders (VAEs) for guided image generation 
+of handwritten digits, using the famous [MNIST](https://en.wikipedia.org/wiki/MNIST_database) dataset. 
+
+![Figure]({{"/assets/img/vae/conditional_vae_latent_crop.gif" | absolute_url}})
+
+
+Source code can be found [here](https://github.com/kianzohoury/VAE).
+
+<i class="project-tag"> topics: <b> deep learning, image processing, variational inference </b></i>
+
+---
+
 # auralflow 🔊🎵
 PyTorch-based application for training/evaluating source separation models to 
 extract stems (e.g. vocals) from audio for music remixing. 
@@ -62,19 +75,6 @@ a popular problem in computer vision called style transfer.
 For the source code, go [here](https://github.com/kianzohoury/style_transfer).
 
 <i class="project-tag"> topics: <b> deep learning, image processing, generative adversarial networks</b></i>
-
----
-
-# conditional VAEs for generating handwritten digits (MNIST)
-Exploring conditional variational autoencoders (VAEs) for guided image generation 
-of handwritten digits, using the famous [MNIST](https://en.wikipedia.org/wiki/MNIST_database) dataset. 
-
-![Figure]({{"/assets/img/vae/conditional_vae_decodings.jpg" | absolute_url}})
-
-
-Source code can be found [here](https://github.com/kianzohoury/VAE).
-
-<i class="project-tag"> topics: <b> deep learning, image processing, variational inference </b></i>
 
 ---
 
