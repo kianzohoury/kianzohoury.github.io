@@ -5,4 +5,4 @@ title: Blog
 permalink: /blog/
 ---
 
-Nothing here yet. Will update soon!
+Nothing here yet (working on first article). Check back soon!

@@ -627,4 +627,17 @@ li::marker {
   color: #727272;
 }
 
+.grow {
+  height: 130px;
+  width: 100%;
+  position: relative;
+  transition: height 1.5s;
+  -webkit-transition: height 1.5s;
+  overflow: hidden;
+}
+
+.grow:hover {
+  height: 800px;
+}
+
 /*# sourceMappingURL=style.css.map */
